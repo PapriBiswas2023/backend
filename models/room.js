@@ -10,6 +10,6 @@ const roomSchema = new mongoose.Schema({
         required: true
     },
     
-});
+},{timestamps: true});
 
-module.exports = mongoose.model('room', roomSchema);
+module.exports = mongoose.model('Room', roomSchema);
